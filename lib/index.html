@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="icon" href="img/logo2.png">
+    <style>
+        @font-face {
+            font-family: myFirstFont;
+            src: url("font/MUSICNET.ttf");
+        }
+
+        body {
+            margin: 0px;
+            background: rgb(1, 2, 19);
+            background-image: url("img/fondo4.jpg");
+            background-repeat: round; 
+        }
+
+        header {
+            width: 100%;
+            height: 300px;
+            background-image: url("img/fondo1.jpg");
+            background-repeat: round;
+        }
+
+        .tituloheader {
+
+            text-align: center;
+            font-size: 3em;
+            font-family: myFirstFont;
+            color: rgb(233, 233, 233);
+            font-weight: 500;
+        }
+
+        .box1 {
+            width: 20%;
+            float: left;
+            position: relative;
+        }
+
+        .box2 {
+            width: 60%;
+            float: left;
+            position: relative;
+            top: 100px;
+        }
+
+        #boton {
+            position: relative;
+            left: 140px;
+            top: 20px;
+        }
+
+        section {
+            width: 900px;
+            margin: 0 auto;
+            padding: 15px;
+            background: rgb(203, 205, 219);
+            font-family: Arial, Helvetica, sans-serif;           
+        }
+
+        .a1 {
+            color: white;
+        }
+
+        .redes {
+            float: right;
+            margin: 5px;            
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="padding: 15px">
+            <div class="box1"><img src="img/logo2.png" width="100px"></div>
+            <div class="box2">
+                <h1 class="tituloheader">Escucha a tus artistas favoritos.</h1>
+            </div>
+            <div class="box1" id="boton">
+                <input type="button" value="Iniciar Sesión">
+            </div>
+        </div>
+    </header>
+    <section>
+        <h2 style="font-size: 2.5em">Registrarse</h2>
+        <br>
+        <form>
+            <label for="name" aria-required="">Nombre</label>
+            <input id="name" type="text" placeholder="Escribe aquí..." required>
+            <br>
+            <br>
+            <label for="lastname" aria-required="">Apellido</label>
+            <input id="lastname" type="text" placeholder="Escribe aquí..." required>
+            <br>
+            <br>
+            <label for="mail" aria-required="">Correo electrónico</label>
+            <input id="mail" type="email" placeholder="Escribe aquí..." required>
+            <br>
+            <br>
+            <label for="texto" aria-required="">Nombre de usuario</label>
+            <input id="texto" type="text" placeholder="Escribe aquí..." required>
+            <br>
+            <br>
+            <label for="password" aria-required="">Contraseña</label>
+            <input id="password" type="password" placeholder="Escribe aquí..." required>
+            <br>
+            <br>
+            <label for="sex" aria-required="">Sexo</label>
+            <input type="radio" name="sex" required><label for="hombre">Hombre</label>
+            <input type="radio" name="sex" required><label for="mujer">Mujer</label>
+            <input type="radio" name="sex" required><label for="otro">Otro</label>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Registrarse">
+            <br>
+            <br>
+            <br>
+        </form>
+    </section>
+
+    <hr style="margin: 0px">
+    <footer>
+        <div>
+            <div style="margin-left: 10px">
+                <br>
+                <a class="a1" href="https://www.google.com" target="_blank">Términos y Condiciones</a><br>
+                <a class="a1" href="https://www.google.com" target="_blank">Política de Privacidad</a><br>
+                <a class="a1" href="https://www.google.com" target="_blank">Ayuda</a><br>
+                <a class="a1" href="https://www.google.com" target="_blank">Idioma</a><br>
+                <a class="a1">Contactar: nombre@gmail.com</a>
+            </div>
+            <div>
+                <div id="redes1" class="redes"><img src="img/facebook.png" width="50px" height="50px"></div>
+                <div id="redes2" class="redes"><img src="img/instagram.png" width="50px" height="50px"></div>
+                <div id="redes3" class="redes"><img src="img/twitter1.png" width="50px" height="50px"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

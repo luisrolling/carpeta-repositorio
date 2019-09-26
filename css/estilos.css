@@ -1,0 +1,122 @@
+
+
+
+        @font-face {
+            font-family: RobotoMedium;
+            src: url("font/Roboto-Medium.ttf");
+        }
+
+        @font-face {
+            font-family: RobotoLight;
+            src: url("font/Roboto-Light.ttf");
+        }
+
+        @font-face {
+            font-family: RobotoRegular;
+            src: url("font/Roboto-Regular.ttf")
+        }
+
+        body {
+            color: #333;
+            font-size: 1.2 rem;
+            line-height: 1.5em;
+            margin: 0;
+            background-image: url(../img/azulf.jpg); 
+            background-repeat: round;
+        }
+
+        p {
+            margin-bottom: 1.6em;
+        }
+
+        .contenido {
+            width: 85%;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        header {
+            width: 100%;
+            background-color: rgb(46, 46, 85);
+            padding: 0.35rem 0;
+            position: fixed;
+            top: 0;
+            font-family: RobotoRegular;
+        }
+
+        header a {
+            color: cornsilk;
+            text-decoration: none;
+        }
+
+        .flex-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navegation ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .navegation ul li {
+            display: inline-block;
+        }
+
+        .navegation ul li a {
+            padding: 0.5rem 0.5rem;
+        }
+
+        .navegation ul li a:hover {
+            background: gray;
+        }
+
+        main {
+            padding-top: 6rem;
+        }
+
+        .contenedor {
+            display: inline-flex;
+        }
+
+        .contenedor div {
+            width: 32%;
+            margin-left: 1%;
+            text-align: center;           
+            border-radius: 15px;            
+        }
+
+        .contenedor2 {
+            display: inline-flex;
+        }
+
+        .contenedor2 div {
+            width: 32%;
+            margin-left: 1%;
+            text-align: center;            
+            border-radius: 15px;            
+        }
+
+        .redes {
+            float: right;
+            margin: 5px;
+        }
+
+        .a1 {
+            color: gray;
+        }
+
+        h1 {
+            font-family: RobotoMedium;
+        }
+
+        footer {
+            font-family: RobotoLight;
+        }
+        iframe{
+            border-radius: 15px;
+        }
+    
+

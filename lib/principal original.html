@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YouMusic</title>
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #333;
+            font-size: 1.2 rem;
+            line-height: 1.5em;
+            margin: 0;
+            background-image: url(img/fondoppal.jpg);
+        }
+
+        p {
+            margin-bottom: 1.6em;
+        }
+
+        .contenido {
+            width: 85%;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        header {
+            width: 100%;
+            background-color: rgb(47, 43, 83);
+            padding: 0.35rem 0;
+            position: fixed;
+            top: 0;
+        }
+
+        header a {
+            color: cornsilk;
+            text-decoration: none;
+        }
+
+        .flex-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navegation ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .navegation ul li {
+            display: inline-block;
+        }
+
+        .navegation ul li a {
+            padding: 0.5rem 0.5rem;
+        }
+
+        .navegation ul li a:hover {
+            background: gray;
+        }
+
+        main {
+            padding-top: 6rem;
+        }
+
+        .contenedor {
+            display: inline-flex;
+        }
+
+        .contenedor div {
+            width: 32%;
+            margin-left: 1%;
+            text-align: center;
+            background-color: gray;
+            border-radius: 15px;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .contenedor img {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .contenedor2 {
+            display: inline-flex;
+        }
+
+        .contenedor2 div {
+            width: 32%;
+            margin-left: 1%;
+            text-align: center;
+            background-color: gray;
+            border-radius: 15px;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .contenedor2 img {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .contenedor a {
+            text-decoration: none;
+            color: #333;
+        }
+        .contenedor2 a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        .redes {
+            float: right;
+            margin: 5px;
+
+        }
+
+        .a1 {
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="contenido flex-box">
+            <a class="logo" href="principal.html">
+                <img src="img/logo1.png" alt="logo" width="50px">
+            </a>
+            <nav class="navegation">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Tu Musica</a></li>
+                    <li><input type="search"></li>
+                    <li><a href="">Tu Perfil</a></li>
+                    <li><a href=""> <img src="img/campana2.png" width="18px"> Notificaciones</a></li>
+                    <li><a href=""> <img src="img/mensaje.png" width="18px"> Mensajes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="contenido">
+            <h1 style="color: white">Géneros</h1>
+            <br>
+            <div class="contenedor">
+                <div>
+                    <a href=""><img src="img/genero2.jpg"></a>
+                    <a href="">
+                        <h3>Reggaeton</h3>
+                    </a>
+                </div>
+                <div>
+                    <a href=""><img src="img/rock.jpg"></a>
+                    <a href="">
+                        <h3>Rock</h3>
+                    </a>
+                </div>
+                <div>
+                    <a href=""><img src="img/genero1.jpg"></a>
+                    <a href="">
+                        <h3>Electronica</h3>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="contenido2">
+                <h1 style="color: white">Listas Favoritas</h1>
+                <br>
+                <div class="contenedor2">
+                    <div>
+                        <a href=""><img src="img/genero2.jpg"></a>
+                        <a href="">
+                            <h3>Reggaeton</h3>
+                        </a>
+                    </div>
+                    <div>
+                        <a href=""><img src="img/rock.jpg"></a>
+                        <a href="">
+                            <h3>Rock</h3>
+                        </a>
+                    </div>
+                    <div>
+                        <a href=""><img src="img/genero1.jpg"></a>
+                        <a href="">
+                            <h3>Electronica</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </main>
+      
+    <div class="footer1" style="margin-top: 10px">
+    
+    <footer>
+            <div>
+                <div style="margin-left: 10px">
+                    <br>
+                    <a class="a1" href="https://www.google.com" target="_blank">Términos y Condiciones</a><br>
+                    <a class="a1" href="https://www.google.com" target="_blank">Política de Privacidad</a><br>
+                    <a class="a1" href="https://www.google.com" target="_blank">Ayuda</a><br>
+                    <a class="a1" href="https://www.google.com" target="_blank">Idioma</a><br>
+                    <a class="a1">Contactar: nombre@gmail.com</a>
+                </div>
+                <div>
+                    <div id="redes1" class="redes"><img src="img/facebook.png" width="50px" height="50px"></div>
+                    <div id="redes2" class="redes"><img src="img/instagram.png" width="50px" height="50px"></div>
+                    <div id="redes3" class="redes"><img src="img/twitter1.png" width="50px" height="50px"></div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
